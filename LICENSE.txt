@@ -1,0 +1,17 @@
+===============VIVITA COMMONS OPEN SOURCE CODE LICENSE TEXT============
+This source code is released under the VIVITA Commons open source license. License text and permission of use as follows below. 
+
+Creators: Chin Su Yuen (@suyuen, https://www.linkedin.com/in/suyuen/), Feng Bowen (@dihorze, https://www.linkedin.com/in/fengbowen/), Rachel Tan (@rtan0411, https://www.linkedin.com/in/rachel-tan-1104/)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+THE SOFTWARE SHALL NOT BE USED FOR:
+1. ANY PRODUCT OR INITATIVE THAT CAUSES HARM TO YOUTHS AND CHILDREN. YOUTHS DEFINED AS BEING ANYONE AGED 21 AND BELOW.  
+2. ANY INITIATIVES INVOLVING RELIGION, POLITICS, TERRORISM AND DRUGS.
+3. ANY PRODUCT OR INITIATIVE THAT EXPLOITS YOUTHS AND THEIR DATA FOR ILLEGAL PURPOSES INCLUDING, BUT NOT LIMITED TO PORNOGRAPHY, UNDERAGED LABOR AND ILLEGAL EMPLOYMENT. 
+4. ANY PRODUCT OR INITIATIVE THAT EXPLOITS YOUTHS AND THEIR DATA FOR ANY FORM OF FINANCIAL BENEFIT WITHOUT PRIOR WRITTEN CONSENT OF THE YOUTH'S GUARDIAN(S).
+5. IF YOU ARE NOT OPERATING A VIVISTOP OR IF YOUR ENTITY IS NOT A MEMBER OF VIVITA COMMONS, YOU ARE FREE TO USE THIS SOURCE CODE WITHOUT THE VIVITA/VIVIBOOM NAME, BRANDING AND GRAPHICS INCLUDED IN THIS SOURCE CODE.

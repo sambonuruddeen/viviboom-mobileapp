@@ -1,0 +1,123 @@
+{
+  "expo": {
+    "name": "Viviboom",
+    "slug": "rn-viviboom",
+    "version": "1.2.33",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "viviboom",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/fd1b6f95-6862-4ce6-be53-c38c1ff1a8b6"
+    },
+    "assetBundlePatterns": [
+      "assets/fonts/**",
+      "assets/images/**"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.vivita.viviboom",
+      "associatedDomains": [
+        "applinks:mobile.viviboom.co"
+      ],
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "$(PRODUCT_NAME) requires access to your camera so that you could attach photos to your project.",
+        "NSPhotoLibraryUsageDescription": "$(PRODUCT_NAME) requires access to your photos so that you could attach them to your project.",
+        "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos you like to your gallery.",
+        "NSLocationWhenInUseUsageDescription": "$(PRODUCT_NAME) requires access to your location so that it could attach geolocation to your project.",
+        "NSRemindersUsageDescription": "$(PRODUCT_NAME) requires access to your calendar so that it could add events.",
+        "NSBluetoothPeripheralUsageDescription": "$(PRODUCT_NAME) requires bluetooth to connect to bluetooth deviecs in VIVISTOP"
+      }
+    },
+    "android": {
+      "minSdkVersion": 21,
+      "targetSdkVersion": 33,
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.BLUETOOTH_CONNECT"
+      ],
+      "package": "com.vivita.viviboom",
+      "versionCode": 33,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "mobile.viviboom.co"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "$(PRODUCT_NAME) requires access to your photos so that you could attach them to your project.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos you like to your gallery."
+        }
+      ],
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "production"
+        }
+      ],
+      [
+        "@config-plugins/react-native-ble-plx",
+        {
+          "bluetoothAlwaysPermission": "Allow $(PRODUCT_NAME) to connect to Vivistop bluetooth devices."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ],
+      "sentry-expo"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fd1b6f95-6862-4ce6-be53-c38c1ff1a8b6"
+      }
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "vivita-singapore-pte-ltd",
+            "project": "rn-viviboom",
+            "authToken": "746f061f98fd4edd919eb5e41b566298af171969fe27432da38b55a51e5fa2ea"
+          }
+        }
+      ]
+    },
+    "runtimeVersion": "1.0.0"
+  }
+}

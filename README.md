@@ -1,11 +1,40 @@
-# rn-viviboom
-Viviboom 2.0 mobile app
-YOU MUST REPLACE ALL LOGOS, IMAGES AND ANIMATIONS USED TO YOUR OWN. THE IMAGES AND ANIMATIONS USED IN THE SOURCE CODE ARE COPYRIGHTED AND PROVIDED ONLY AS REFERENCE MATERIAL.
+# Installation Guide
+## ViviBoom 2.0 React Native Mobile App
 
-# Set up
-1. Request for the latest development build for IOS and Android.
-2. Install npm & node & yarn
-3. Git pull repo
-4. `yarn`
-5. `npm run start`
-6. Scan the QR code displayed in the terminal using your camera or enter the URL in the terminal manually. 
+### Prerequisites
+1. Replace All Assets.
+    - Replace all logos, images, and animations with your own. The assets in the source code are copyrighted and provided only as reference material.
+1. Request Development Builds.
+    - Contact the development team to request the latest builds for iOS and Android.
+1. Install Required Tools.
+    - [Node.js and npm](https://nodejs.org/en/)
+    or
+    - [Yarn]()
+
+### Installation
+1. Clone the Viviboom 2.0 mobile app repository to your local machine:
+    ```bash
+    git clone <repository-url>
+    cd <repository-folder>
+    ```
+1. Install the required dependencies using npm or yarn:
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
+1. Start the development server:
+    ```bash
+    npm run start
+    ```
+    or
+    ```bash
+    yarn start
+    ```
+1. Run the app on your device:
+- QR Code Scanning:
+    Scan the QR code displayed in the terminal using your device's camera. This will open the app on your device.
+- Manual URL Entry:
+    Copy the URL displayed in the terminal and manually enter it into your device's browser or a mobile testing app.
